@@ -1,5 +1,6 @@
-import z4 as m
-
-assert m.__version__ == '0.0.1'
-assert m.add(1, 2) == 3
-assert m.subtract(1, 2) == -1
+import sys
+sys.path.append('./build/Debug')
+import z4 
+assert z4.__version__ == 'dev'
+assert z4.add(1, 2) == 3
+assert z4.subtract(1, 2) == -1
